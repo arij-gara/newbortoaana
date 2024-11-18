@@ -22,7 +22,7 @@ const JellyFish= ({isZoomed,setIsZoomed}) => {
         onClick={() => setIsZoomed(!isZoomed)}
         className={`transition-all rounded-xl duration-700 ${
           isZoomed ? "w-2/4 h-2/4 fixed " : "w-28 h-24 fixed"
-        } flex items-center justify-center`}
+        } flex items-center justify-center z-20`}
         style={{
            
           top: isZoomed ? "13%" : "70px",
@@ -42,7 +42,7 @@ const JellyFish= ({isZoomed,setIsZoomed}) => {
       <div
         className={`absolute  flex justify-center items-center transition-transform duration-700 ${
           isZoomed ? "scale-150 translate-x-[19vw] translate-y-[37vh] " : "scale-100 fixed"
-        }`}
+        } z-30`}
         style={{
           top: isZoomed ? "bottom right" : "80px",
           left:isZoomed ? "bottom right" : '660px'
@@ -51,7 +51,7 @@ const JellyFish= ({isZoomed,setIsZoomed}) => {
         <img
           src={JellyFishImage}
           alt="Jellyfish"
-          className={`  transition-opacity duration-700 
+          className={`transition-opacity duration-700 
               ${
             isZoomed ? "opacity-100" : "opacity-100"
           }`}

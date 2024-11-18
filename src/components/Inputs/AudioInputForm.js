@@ -114,7 +114,7 @@ export default function AudioInputForm() {
  
 
   // Render TranscriptComponent after stopping recording and receiving the transcript
-  if (!isListening && showTranscript && transcript) {
+  // if (!isListening && showTranscript && transcript) {
     return (
       <TranscriptComponent
         transcript={transcript}
@@ -122,7 +122,7 @@ export default function AudioInputForm() {
         onEditText={handleEditText}
       />
     );
-  }
+  // }
 
   return (
     <div className=' ml-16 w-full'>

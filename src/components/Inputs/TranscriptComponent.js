@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import AudioImage from  "../../assests/images/inputs/audiotext.png"
 import { FaRedo, FaEdit , FaSave} from 'react-icons/fa';
 import Propreties  from "./Propreties"
+
 function TranscriptComponent({ transcript, onRecordAgain  }) {
     const [showProperties, setShowProperties] = useState(false);
     const [isEditing, setIsEditing] = useState(false);

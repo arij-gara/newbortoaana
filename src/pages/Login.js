@@ -54,13 +54,7 @@ import useAuth from '../hooks/useAuth';
    console.log("hello")
    window.location.href = 'http://localhost:5001/api/facebook/';
   }
-//   const response = await axios.get("http://localhost:5001/api/facebook/")
-//   console.log("response :",response)
-//   try {
 
-//   }catch(err) {
-//     console.log("error:",err)
-//   }
   
  const  handleGoogleLogin = async (e)=>  {
   e.preventDefault()

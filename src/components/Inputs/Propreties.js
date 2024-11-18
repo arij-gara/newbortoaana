@@ -1,7 +1,10 @@
-import React from 'react';
+import React ,{useState} from 'react';
 import PropertiesImage from "../../assests/images/inputs/proptext.png";
+import GeneratingModal from '../GeneratingVideo/GeneratingModel';
 
 export default function Properties() {
+  const [showModal, setShowModal] = useState(false)
+
     const handleInputChange = (e) => {
         e.stopPropagation(); 
         e.preventDefault();
@@ -23,6 +26,15 @@ export default function Properties() {
       e.stopPropagation();
       console.log("hello from input")
     }
+
+    const handleGenerateClick = (e) => {
+      e.stopPropagation();
+      setShowModal(true);
+      // Simulate a loader delay
+      // setTimeout(() => {
+      //   setShowModal(false); // Close the modal after 3 seconds
+      // }, 3000);
+    };
   return (
     <div className=''>
       <img src={PropertiesImage} className='w-[300px] ml-20' />
@@ -68,8 +80,12 @@ export default function Properties() {
       </div>
       {/*  generate button  */}
       <div>
-        <div className='rounded-sm text-white w-[70px] h-[25px] ml-32 text-[9px] font-bold bg-blue-500 flex items-center justify-center'>Generate</div>
+        <div  onClick={(e) =>handleGenerateClick(e)} className='rounded-sm text-white w-[70px] h-[25px] ml-32 text-[9px] font-bold bg-blue-500 flex items-center justify-center'>Generate</div>
       </div>
+
+      {/* Modal */}
+   
+      <GeneratingModal show={showModal} onClose={() => setShowModal(false)} /> 
     </div>
   );
 }

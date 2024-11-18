@@ -19,7 +19,7 @@ export default function Header() {
        <div  style={{color:'#B7B7B7'}}className='text-white  text-xs sm:text-xs lg:text-base'> Welcome Back!</div>
         <div className="text-white font-bold  text-xs sm:text-xs lg:text-lg ">John Doe </div> 
       </div>
-
+      
       
      <div className=' flex flex-row space-x-4 mr-3 '>
    
@@ -30,7 +30,7 @@ export default function Header() {
      <FiSettings className="text-white lg:text-2xl sm:text-lg" /> 
      </div>
      </div>
-
+    
        {/* Notification Popup */}
        {showNotifications && <NotificationsPopup />}
       </div>
