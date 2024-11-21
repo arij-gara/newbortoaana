@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/newbortoaana/static/css/main.82c448f5.css",
+    "main.js": "/newbortoaana/static/js/main.96c325ed.js",
+    "static/js/453.ac3925a5.chunk.js": "/newbortoaana/static/js/453.ac3925a5.chunk.js",
+    "static/media/animation.mp4": "/newbortoaana/static/media/animation.b3983f8cf515873fd4fa.mp4",
+    "static/media/videojelly.gif": "/newbortoaana/static/media/videojelly.430039421f01de635f73.gif",
+    "static/media/video2.png": "/newbortoaana/static/media/video2.6fcddeb1d7f990c35714.png",
+    "static/media/c.png": "/newbortoaana/static/media/c.d2d1cfdede164ac70c65.png",
+    "static/media/jellyfish.png": "/newbortoaana/static/media/jellyfish.2d23b77ce461ba2ac11d.png",
+    "static/media/video1.png": "/newbortoaana/static/media/video1.f4abd958961dd5da5ae4.png",
+    "static/media/isListening.png": "/newbortoaana/static/media/isListening.84196ee3be6c9fffbb8a.png",
+    "static/media/audioimage.png": "/newbortoaana/static/media/audioimage.74dc5571df5649bfb3a7.png",
+    "static/media/proptext.png": "/newbortoaana/static/media/proptext.0d2e4e2cc6727d1ba386.png",
+    "static/media/img1.png": "/newbortoaana/static/media/img1.eb83610052a384444758.png",
+    "static/media/audiotext.png": "/newbortoaana/static/media/audiotext.6363831ce7de741f2864.png",
+    "static/media/imput.png": "/newbortoaana/static/media/imput.a5b8b1ddbfe661ba2f04.png",
+    "static/media/stopListening.png": "/newbortoaana/static/media/stopListening.88d894056caf3efdee54.png",
+    "index.html": "/newbortoaana/index.html",
+    "main.82c448f5.css.map": "/newbortoaana/static/css/main.82c448f5.css.map",
+    "main.96c325ed.js.map": "/newbortoaana/static/js/main.96c325ed.js.map",
+    "453.ac3925a5.chunk.js.map": "/newbortoaana/static/js/453.ac3925a5.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.82c448f5.css",
+    "static/js/main.96c325ed.js"
+  ]
+}
