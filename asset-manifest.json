@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/newbortoaana/static/css/main.82c448f5.css",
-    "main.js": "/newbortoaana/static/js/main.96c325ed.js",
+    "main.js": "/newbortoaana/static/js/main.2896cf28.js",
     "static/js/453.ac3925a5.chunk.js": "/newbortoaana/static/js/453.ac3925a5.chunk.js",
     "static/media/animation.mp4": "/newbortoaana/static/media/animation.b3983f8cf515873fd4fa.mp4",
     "static/media/videojelly.gif": "/newbortoaana/static/media/videojelly.430039421f01de635f73.gif",
@@ -18,11 +18,11 @@
     "static/media/stopListening.png": "/newbortoaana/static/media/stopListening.88d894056caf3efdee54.png",
     "index.html": "/newbortoaana/index.html",
     "main.82c448f5.css.map": "/newbortoaana/static/css/main.82c448f5.css.map",
-    "main.96c325ed.js.map": "/newbortoaana/static/js/main.96c325ed.js.map",
+    "main.2896cf28.js.map": "/newbortoaana/static/js/main.2896cf28.js.map",
     "453.ac3925a5.chunk.js.map": "/newbortoaana/static/js/453.ac3925a5.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.82c448f5.css",
-    "static/js/main.96c325ed.js"
+    "static/js/main.2896cf28.js"
   ]
 }
